@@ -1,0 +1,309 @@
+<html>
+<head>
+<title>TestNG:  test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>46/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Sep 13 12:15:16 MSK 2018</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (31 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNgTests.exponentFormate()'><b>exponentFormate</b><br>Test class: testNgTests<br>Parameters: 1e1, 0.1</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.exponentFormate()'><b>exponentFormate</b><br>Test class: testNgTests<br>Parameters: 1E1, 0.1</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.exponentFormate()'><b>exponentFormate</b><br>Test class: testNgTests<br>Parameters: 1E01, 0.1</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.exponentFormate()'><b>exponentFormate</b><br>Test class: testNgTests<br>Parameters: 1.0E10, 1.0E-10</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.exponentFormate()'><b>exponentFormate</b><br>Test class: testNgTests<br>Parameters: 1.0E-100, 1.0E100</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.extrimeValues()'><b>extrimeValues</b><br>Test class: testNgTests<br>Parameters: 1.0E1000, 0.0</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.extrimeValues()'><b>extrimeValues</b><br>Test class: testNgTests<br>Parameters: 1.0E-1000, Infinity</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.extrimeValues()'><b>extrimeValues</b><br>Test class: testNgTests<br>Parameters: 1.0E308, 1.0E-308</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.extrimeValues()'><b>extrimeValues</b><br>Test class: testNgTests<br>Parameters: 1.0E309, 0.0</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.extrimeValues()'><b>extrimeValues</b><br>Test class: testNgTests<br>Parameters: -9.9e306, -1.01010101010101E-307</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.floatFormate()'><b>floatFormate</b><br>Test class: testNgTests<br>Parameters: 1., 1.0</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.floatFormate()'><b>floatFormate</b><br>Test class: testNgTests<br>Parameters: .9, 1.1111111111111112</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.floatFormate()'><b>floatFormate</b><br>Test class: testNgTests<br>Parameters: 9.9, 0.10101010101010101</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.floatFormate()'><b>floatFormate</b><br>Test class: testNgTests<br>Parameters: 0.0000000000001, 1.0E13</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.incorrectFormate()'><b>incorrectFormate</b><br>Test class: testNgTests<br>Parameters: </td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.incorrectFormate()'><b>incorrectFormate</b><br>Test class: testNgTests<br>Parameters: a</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.incorrectFormate()'><b>incorrectFormate</b><br>Test class: testNgTests<br>Parameters: _</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.incorrectFormate()'><b>incorrectFormate</b><br>Test class: testNgTests<br>Parameters: 123.!</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.incorrectFormate()'><b>incorrectFormate</b><br>Test class: testNgTests<br>Parameters: !@#$%^&</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.incorrectFormate()'><b>incorrectFormate</b><br>Test class: testNgTests<br>Parameters: very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string </td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.incorrectFormate()'><b>incorrectFormate</b><br>Test class: testNgTests<br>Parameters: 1234567890..0</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.incorrectFormate()'><b>incorrectFormate</b><br>Test class: testNgTests<br>Parameters: -2.3283064365386963E@10</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.incorrectFormate()'><b>incorrectFormate</b><br>Test class: testNgTests<br>Parameters: -2.ee-10</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.incorrectFormate()'><b>incorrectFormate</b><br>Test class: testNgTests<br>Parameters: _100_</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.integer()'><b>integer</b><br>Test class: testNgTests<br>Parameters: 1, 1.0</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.integer()'><b>integer</b><br>Test class: testNgTests<br>Parameters: 2, 0.5</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.integer()'><b>integer</b><br>Test class: testNgTests<br>Parameters: 4, 0.25</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.integer()'><b>integer</b><br>Test class: testNgTests<br>Parameters: 8, 0.125</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.integer()'><b>integer</b><br>Test class: testNgTests<br>Parameters: -32, -0.03125</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.integer()'><b>integer</b><br>Test class: testNgTests<br>Parameters: 64, 0.015625</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.integer()'><b>integer</b><br>Test class: testNgTests<br>Parameters: -128, -0.0078125</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.integer()'><b>integer</b><br>Test class: testNgTests<br>Parameters: 256, 0.00390625</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.integer()'><b>integer</b><br>Test class: testNgTests<br>Parameters: -1024, -9.765625E-4</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.integer()'><b>integer</b><br>Test class: testNgTests<br>Parameters: 1048576.0, 9.5367431640625E-7</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.integer()'><b>integer</b><br>Test class: testNgTests<br>Parameters: -1.073741824E9, -9.313225746154785E-10</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.integer()'><b>integer</b><br>Test class: testNgTests<br>Parameters: 4.294967296E9, 2.3283064365386963E-10</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.integer()'><b>integer</b><br>Test class: testNgTests<br>Parameters: -4.294967296E9, -2.3283064365386963E-10</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.negative()'><b>negative</b><br>Test class: testNgTests<br>Parameters: -9.9e308, -0.0</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.shortTest()'><b>shortTest</b><br>Test class: testNgTests<br>Parameters: 32768, 3.0517578125E-5</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.shortTest()'><b>shortTest</b><br>Test class: testNgTests<br>Parameters: 3.0517578125E-5, 32768.0</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.shortTest()'><b>shortTest</b><br>Test class: testNgTests<br>Parameters: 32767, 3.051850947599719E-5</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.shortTest()'><b>shortTest</b><br>Test class: testNgTests<br>Parameters: 3.051850947599719E-5, 32767.0</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.zero()'><b>zero</b><br>Test class: testNgTests<br>Parameters: 0, Infinity</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.zero()'><b>zero</b><br>Test class: testNgTests<br>Parameters: 0.0, Infinity</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.zero()'><b>zero</b><br>Test class: testNgTests<br>Parameters: 0E0, Infinity</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+<tr>
+<td title='testNgTests.zero()'><b>zero</b><br>Test class: testNgTests<br>Parameters: 0.0E0, Infinity</td>
+<td></td>
+<td>0</td>
+<td>testNgTests@2b662a77</td></tr>
+</table><p>
+</body>
+</html>

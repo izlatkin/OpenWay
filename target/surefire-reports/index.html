@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite1" class="navigator-link">
+              <span class="suite-name border-passed">Suite1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite1" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite1" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite1" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite1" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite1" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite1" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite1" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">46 methods,   46 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods passed suite-Suite1"> (hide)</a> <!-- hide-methods passed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods passed suite-Suite1"> (show)</a> <!-- show-methods passed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite1">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="exponentFormate(1.0E10, 1.0E-10)">exponentFormate(1.0E10, 1.0E-10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="exponentFormate(1.0E-100, 1.0E100)">exponentFormate(1.0E-100, 1.0E100)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="exponentFormate(1e1, 0.1)">exponentFormate(1e1, 0.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="exponentFormate(1E01, 0.1)">exponentFormate(1E01, 0.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="exponentFormate(1E1, 0.1)">exponentFormate(1E1, 0.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="extrimeValues(1.0E1000, 0.0)">extrimeValues(1.0E1000, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="extrimeValues(1.0E-1000, Infinity)">extrimeValues(1.0E-1000, Infinity)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="extrimeValues(1.0E308, 1.0E-308)">extrimeValues(1.0E308, 1.0E-308)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="extrimeValues(1.0E309, 0.0)">extrimeValues(1.0E309, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="extrimeValues(-9.9e306, -1.01010101010101E-307)">extrimeValues(-9.9e306, -1.01010101010101E-307)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="floatFormate(9.9, 0.10101010101010101)">floatFormate(9.9, 0.10101010101010101)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="floatFormate(.9, 1.1111111111111112)">floatFormate(.9, 1.1111111111111112)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="floatFormate(0.0000000000001, 1.0E13)">floatFormate(0.0000000000001, 1.0E13)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="floatFormate(1., 1.0)">floatFormate(1., 1.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="incorrectFormate()">incorrectFormate()</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="incorrectFormate(_100_)">incorrectFormate(_100_)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="incorrectFormate(!@#$%^&amp;)">incorrectFormate(!@#$%^&)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="incorrectFormate(_)">incorrectFormate(_)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="incorrectFormate(very long string very long string very long string very long string very long string very long strin...)">incorrectFormate(very long string very long string very long string very long string very long string very long strin...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="incorrectFormate(-2.3283064365386963E@10)">incorrectFormate(-2.3283064365386963E@10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="incorrectFormate(123.!)">incorrectFormate(123.!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="incorrectFormate(1234567890..0)">incorrectFormate(1234567890..0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="incorrectFormate(a)">incorrectFormate(a)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="incorrectFormate(-2.ee-10)">incorrectFormate(-2.ee-10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="integer(8, 0.125)">integer(8, 0.125)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="integer(-1.073741824E9, -9.313225746154785E-10)">integer(-1.073741824E9, -9.313225746154785E-10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="integer(64, 0.015625)">integer(64, 0.015625)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="integer(4, 0.25)">integer(4, 0.25)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="integer(-32, -0.03125)">integer(-32, -0.03125)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="integer(-128, -0.0078125)">integer(-128, -0.0078125)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="integer(4.294967296E9, 2.3283064365386963E-10)">integer(4.294967296E9, 2.3283064365386963E-10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="integer(256, 0.00390625)">integer(256, 0.00390625)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="integer(-1024, -9.765625E-4)">integer(-1024, -9.765625E-4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="integer(1048576.0, 9.5367431640625E-7)">integer(1048576.0, 9.5367431640625E-7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="integer(-4.294967296E9, -2.3283064365386963E-10)">integer(-4.294967296E9, -2.3283064365386963E-10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="integer(1, 1.0)">integer(1, 1.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="integer(2, 0.5)">integer(2, 0.5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="negative(-9.9e308, -0.0)">negative(-9.9e308, -0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="shortTest(32768, 3.0517578125E-5)">shortTest(32768, 3.0517578125E-5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="shortTest(32767, 3.051850947599719E-5)">shortTest(32767, 3.051850947599719E-5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="shortTest(3.051850947599719E-5, 32767.0)">shortTest(3.051850947599719E-5, 32767.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="shortTest(3.0517578125E-5, 32768.0)">shortTest(3.0517578125E-5, 32768.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="zero(0.0, Infinity)">zero(0.0, Infinity)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="zero(0, Infinity)">zero(0, Infinity)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="zero(0.0E0, Infinity)">zero(0.0E0, Infinity)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="testNgTests" class="method navigator-link" hash-for-method="zero(0E0, Infinity)">zero(0E0, Infinity)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite1" class="panel Suite1">
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNgTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="exponentFormate(1.0E10, 1.0E-10)">
+                  </a> <!-- exponentFormate(1.0E10, 1.0E-10) -->
+                  <span class="method-name">exponentFormate</span>
+                  <span class="parameters">(1.0E10, 1.0E-10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="exponentFormate(1.0E-100, 1.0E100)">
+                  </a> <!-- exponentFormate(1.0E-100, 1.0E100) -->
+                  <span class="method-name">exponentFormate</span>
+                  <span class="parameters">(1.0E-100, 1.0E100)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="exponentFormate(1e1, 0.1)">
+                  </a> <!-- exponentFormate(1e1, 0.1) -->
+                  <span class="method-name">exponentFormate</span>
+                  <span class="parameters">(1e1, 0.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="exponentFormate(1E01, 0.1)">
+                  </a> <!-- exponentFormate(1E01, 0.1) -->
+                  <span class="method-name">exponentFormate</span>
+                  <span class="parameters">(1E01, 0.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="exponentFormate(1E1, 0.1)">
+                  </a> <!-- exponentFormate(1E1, 0.1) -->
+                  <span class="method-name">exponentFormate</span>
+                  <span class="parameters">(1E1, 0.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="extrimeValues(1.0E1000, 0.0)">
+                  </a> <!-- extrimeValues(1.0E1000, 0.0) -->
+                  <span class="method-name">extrimeValues</span>
+                  <span class="parameters">(1.0E1000, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="extrimeValues(1.0E-1000, Infinity)">
+                  </a> <!-- extrimeValues(1.0E-1000, Infinity) -->
+                  <span class="method-name">extrimeValues</span>
+                  <span class="parameters">(1.0E-1000, Infinity)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="extrimeValues(1.0E308, 1.0E-308)">
+                  </a> <!-- extrimeValues(1.0E308, 1.0E-308) -->
+                  <span class="method-name">extrimeValues</span>
+                  <span class="parameters">(1.0E308, 1.0E-308)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="extrimeValues(1.0E309, 0.0)">
+                  </a> <!-- extrimeValues(1.0E309, 0.0) -->
+                  <span class="method-name">extrimeValues</span>
+                  <span class="parameters">(1.0E309, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="extrimeValues(-9.9e306, -1.01010101010101E-307)">
+                  </a> <!-- extrimeValues(-9.9e306, -1.01010101010101E-307) -->
+                  <span class="method-name">extrimeValues</span>
+                  <span class="parameters">(-9.9e306, -1.01010101010101E-307)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="floatFormate(9.9, 0.10101010101010101)">
+                  </a> <!-- floatFormate(9.9, 0.10101010101010101) -->
+                  <span class="method-name">floatFormate</span>
+                  <span class="parameters">(9.9, 0.10101010101010101)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="floatFormate(.9, 1.1111111111111112)">
+                  </a> <!-- floatFormate(.9, 1.1111111111111112) -->
+                  <span class="method-name">floatFormate</span>
+                  <span class="parameters">(.9, 1.1111111111111112)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="floatFormate(0.0000000000001, 1.0E13)">
+                  </a> <!-- floatFormate(0.0000000000001, 1.0E13) -->
+                  <span class="method-name">floatFormate</span>
+                  <span class="parameters">(0.0000000000001, 1.0E13)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="floatFormate(1., 1.0)">
+                  </a> <!-- floatFormate(1., 1.0) -->
+                  <span class="method-name">floatFormate</span>
+                  <span class="parameters">(1., 1.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="incorrectFormate()">
+                  </a> <!-- incorrectFormate() -->
+                  <span class="method-name">incorrectFormate</span>
+                  <span class="parameters">()</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="incorrectFormate(_100_)">
+                  </a> <!-- incorrectFormate(_100_) -->
+                  <span class="method-name">incorrectFormate</span>
+                  <span class="parameters">(_100_)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="incorrectFormate(!@#$%^&amp;)">
+                  </a> <!-- incorrectFormate(!@#$%^&) -->
+                  <span class="method-name">incorrectFormate</span>
+                  <span class="parameters">(!@#$%^&)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="incorrectFormate(_)">
+                  </a> <!-- incorrectFormate(_) -->
+                  <span class="method-name">incorrectFormate</span>
+                  <span class="parameters">(_)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="incorrectFormate(very long string very long string very long string very long string very long string very long strin...)">
+                  </a> <!-- incorrectFormate(very long string very long string very long string very long string very long string very long strin...) -->
+                  <span class="method-name">incorrectFormate</span>
+                  <span class="parameters">(very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="incorrectFormate(-2.3283064365386963E@10)">
+                  </a> <!-- incorrectFormate(-2.3283064365386963E@10) -->
+                  <span class="method-name">incorrectFormate</span>
+                  <span class="parameters">(-2.3283064365386963E@10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="incorrectFormate(123.!)">
+                  </a> <!-- incorrectFormate(123.!) -->
+                  <span class="method-name">incorrectFormate</span>
+                  <span class="parameters">(123.!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="incorrectFormate(1234567890..0)">
+                  </a> <!-- incorrectFormate(1234567890..0) -->
+                  <span class="method-name">incorrectFormate</span>
+                  <span class="parameters">(1234567890..0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="incorrectFormate(a)">
+                  </a> <!-- incorrectFormate(a) -->
+                  <span class="method-name">incorrectFormate</span>
+                  <span class="parameters">(a)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="incorrectFormate(-2.ee-10)">
+                  </a> <!-- incorrectFormate(-2.ee-10) -->
+                  <span class="method-name">incorrectFormate</span>
+                  <span class="parameters">(-2.ee-10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="integer(8, 0.125)">
+                  </a> <!-- integer(8, 0.125) -->
+                  <span class="method-name">integer</span>
+                  <span class="parameters">(8, 0.125)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="integer(-1.073741824E9, -9.313225746154785E-10)">
+                  </a> <!-- integer(-1.073741824E9, -9.313225746154785E-10) -->
+                  <span class="method-name">integer</span>
+                  <span class="parameters">(-1.073741824E9, -9.313225746154785E-10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="integer(64, 0.015625)">
+                  </a> <!-- integer(64, 0.015625) -->
+                  <span class="method-name">integer</span>
+                  <span class="parameters">(64, 0.015625)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="integer(4, 0.25)">
+                  </a> <!-- integer(4, 0.25) -->
+                  <span class="method-name">integer</span>
+                  <span class="parameters">(4, 0.25)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="integer(-32, -0.03125)">
+                  </a> <!-- integer(-32, -0.03125) -->
+                  <span class="method-name">integer</span>
+                  <span class="parameters">(-32, -0.03125)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="integer(-128, -0.0078125)">
+                  </a> <!-- integer(-128, -0.0078125) -->
+                  <span class="method-name">integer</span>
+                  <span class="parameters">(-128, -0.0078125)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="integer(4.294967296E9, 2.3283064365386963E-10)">
+                  </a> <!-- integer(4.294967296E9, 2.3283064365386963E-10) -->
+                  <span class="method-name">integer</span>
+                  <span class="parameters">(4.294967296E9, 2.3283064365386963E-10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="integer(256, 0.00390625)">
+                  </a> <!-- integer(256, 0.00390625) -->
+                  <span class="method-name">integer</span>
+                  <span class="parameters">(256, 0.00390625)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="integer(-1024, -9.765625E-4)">
+                  </a> <!-- integer(-1024, -9.765625E-4) -->
+                  <span class="method-name">integer</span>
+                  <span class="parameters">(-1024, -9.765625E-4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="integer(1048576.0, 9.5367431640625E-7)">
+                  </a> <!-- integer(1048576.0, 9.5367431640625E-7) -->
+                  <span class="method-name">integer</span>
+                  <span class="parameters">(1048576.0, 9.5367431640625E-7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="integer(-4.294967296E9, -2.3283064365386963E-10)">
+                  </a> <!-- integer(-4.294967296E9, -2.3283064365386963E-10) -->
+                  <span class="method-name">integer</span>
+                  <span class="parameters">(-4.294967296E9, -2.3283064365386963E-10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="integer(1, 1.0)">
+                  </a> <!-- integer(1, 1.0) -->
+                  <span class="method-name">integer</span>
+                  <span class="parameters">(1, 1.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="integer(2, 0.5)">
+                  </a> <!-- integer(2, 0.5) -->
+                  <span class="method-name">integer</span>
+                  <span class="parameters">(2, 0.5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negative(-9.9e308, -0.0)">
+                  </a> <!-- negative(-9.9e308, -0.0) -->
+                  <span class="method-name">negative</span>
+                  <span class="parameters">(-9.9e308, -0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shortTest(32768, 3.0517578125E-5)">
+                  </a> <!-- shortTest(32768, 3.0517578125E-5) -->
+                  <span class="method-name">shortTest</span>
+                  <span class="parameters">(32768, 3.0517578125E-5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shortTest(32767, 3.051850947599719E-5)">
+                  </a> <!-- shortTest(32767, 3.051850947599719E-5) -->
+                  <span class="method-name">shortTest</span>
+                  <span class="parameters">(32767, 3.051850947599719E-5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shortTest(3.051850947599719E-5, 32767.0)">
+                  </a> <!-- shortTest(3.051850947599719E-5, 32767.0) -->
+                  <span class="method-name">shortTest</span>
+                  <span class="parameters">(3.051850947599719E-5, 32767.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shortTest(3.0517578125E-5, 32768.0)">
+                  </a> <!-- shortTest(3.0517578125E-5, 32768.0) -->
+                  <span class="method-name">shortTest</span>
+                  <span class="parameters">(3.0517578125E-5, 32768.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="zero(0.0, Infinity)">
+                  </a> <!-- zero(0.0, Infinity) -->
+                  <span class="method-name">zero</span>
+                  <span class="parameters">(0.0, Infinity)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="zero(0, Infinity)">
+                  </a> <!-- zero(0, Infinity) -->
+                  <span class="method-name">zero</span>
+                  <span class="parameters">(0, Infinity)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="zero(0.0E0, Infinity)">
+                  </a> <!-- zero(0.0E0, Infinity) -->
+                  <span class="method-name">zero</span>
+                  <span class="parameters">(0.0E0, Infinity)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="zero(0E0, Infinity)">
+                  </a> <!-- zero(0E0, Infinity) -->
+                  <span class="method-name">zero</span>
+                  <span class="parameters">(0E0, Infinity)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+        </div> <!-- panel Suite1 -->
+        <div panel-name="test-xml-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/ilyazlatkin/IdeaProjects/OpenWayTask/src/test/resources/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite1&quot; verbose=&quot;0&quot;&gt;
+  &lt;test name=&quot;test1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testNgTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test1 --&gt;
+  &lt;test name=&quot;test2&quot;&gt;
+  &lt;/test&gt; &lt;!-- test2 --&gt;
+&lt;/suite&gt; &lt;!-- Suite1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">test1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">test2 (0 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">1</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">integer</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">shortTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">zero</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">2</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">exponentFormate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">floatFormate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">incorrectFormate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">3</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">extrimeValues</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">negative</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite1');
+function tableData_Suite1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(46);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'exponentFormate')
+data.setCell(0, 2, 'testNgTests')
+data.setCell(0, 3, 7);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'incorrectFormate')
+data.setCell(1, 2, 'testNgTests')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'integer')
+data.setCell(2, 2, 'testNgTests')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'extrimeValues')
+data.setCell(3, 2, 'testNgTests')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'incorrectFormate')
+data.setCell(4, 2, 'testNgTests')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'incorrectFormate')
+data.setCell(5, 2, 'testNgTests')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'integer')
+data.setCell(6, 2, 'testNgTests')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'shortTest')
+data.setCell(7, 2, 'testNgTests')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'extrimeValues')
+data.setCell(8, 2, 'testNgTests')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'integer')
+data.setCell(9, 2, 'testNgTests')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'zero')
+data.setCell(10, 2, 'testNgTests')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'exponentFormate')
+data.setCell(11, 2, 'testNgTests')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'floatFormate')
+data.setCell(12, 2, 'testNgTests')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'shortTest')
+data.setCell(13, 2, 'testNgTests')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'floatFormate')
+data.setCell(14, 2, 'testNgTests')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'integer')
+data.setCell(15, 2, 'testNgTests')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'exponentFormate')
+data.setCell(16, 2, 'testNgTests')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'integer')
+data.setCell(17, 2, 'testNgTests')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'extrimeValues')
+data.setCell(18, 2, 'testNgTests')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'incorrectFormate')
+data.setCell(19, 2, 'testNgTests')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'integer')
+data.setCell(20, 2, 'testNgTests')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'zero')
+data.setCell(21, 2, 'testNgTests')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'shortTest')
+data.setCell(22, 2, 'testNgTests')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'zero')
+data.setCell(23, 2, 'testNgTests')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'integer')
+data.setCell(24, 2, 'testNgTests')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'integer')
+data.setCell(25, 2, 'testNgTests')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'incorrectFormate')
+data.setCell(26, 2, 'testNgTests')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'incorrectFormate')
+data.setCell(27, 2, 'testNgTests')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'incorrectFormate')
+data.setCell(28, 2, 'testNgTests')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'incorrectFormate')
+data.setCell(29, 2, 'testNgTests')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'incorrectFormate')
+data.setCell(30, 2, 'testNgTests')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'floatFormate')
+data.setCell(31, 2, 'testNgTests')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'exponentFormate')
+data.setCell(32, 2, 'testNgTests')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'negative')
+data.setCell(33, 2, 'testNgTests')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'exponentFormate')
+data.setCell(34, 2, 'testNgTests')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'extrimeValues')
+data.setCell(35, 2, 'testNgTests')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'shortTest')
+data.setCell(36, 2, 'testNgTests')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'extrimeValues')
+data.setCell(37, 2, 'testNgTests')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'integer')
+data.setCell(38, 2, 'testNgTests')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'integer')
+data.setCell(39, 2, 'testNgTests')
+data.setCell(39, 3, 0);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'integer')
+data.setCell(40, 2, 'testNgTests')
+data.setCell(40, 3, 0);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'floatFormate')
+data.setCell(41, 2, 'testNgTests')
+data.setCell(41, 3, 0);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'zero')
+data.setCell(42, 2, 'testNgTests')
+data.setCell(42, 3, 0);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'integer')
+data.setCell(43, 2, 'testNgTests')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'incorrectFormate')
+data.setCell(44, 2, 'testNgTests')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'integer')
+data.setCell(45, 2, 'testNgTests')
+data.setCell(45, 3, 0);
+window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 ms</span>
+              <div id="times-div-Suite1">
+              </div> <!-- times-div-Suite1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNgTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">exponentFormate(1e1, 0.1)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">exponentFormate(1E1, 0.1)</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">exponentFormate(1E01, 0.1)</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">exponentFormate(1.0E10, 1.0E-10)</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">exponentFormate(1.0E-100, 1.0E100)</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">extrimeValues(1.0E1000, 0.0)</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">extrimeValues(1.0E-1000, Infinity)</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">extrimeValues(1.0E308, 1.0E-308)</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">extrimeValues(1.0E309, 0.0)</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">extrimeValues(-9.9e306, -1.01010101010101E-307)</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">floatFormate(1., 1.0)</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">floatFormate(.9, 1.1111111111111112)</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">floatFormate(9.9, 0.10101010101010101)</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">floatFormate(0.0000000000001, 1.0E13)</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">incorrectFormate()</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">incorrectFormate(a)</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">incorrectFormate(_)</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">incorrectFormate(123.!)</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">incorrectFormate(!@#$%^&)</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">incorrectFormate(very long string very long string very long string very long string very long string very long strin...)</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">incorrectFormate(1234567890..0)</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">incorrectFormate(-2.3283064365386963E@10)</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">incorrectFormate(-2.ee-10)</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">incorrectFormate(_100_)</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">integer(1, 1.0)</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">integer(2, 0.5)</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">integer(4, 0.25)</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">integer(8, 0.125)</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">integer(-32, -0.03125)</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">integer(64, 0.015625)</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">integer(-128, -0.0078125)</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">integer(256, 0.00390625)</span>
+                <span class="method-start">15 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">integer(-1024, -9.765625E-4)</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">integer(1048576.0, 9.5367431640625E-7)</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">integer(-1.073741824E9, -9.313225746154785E-10)</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">integer(4.294967296E9, 2.3283064365386963E-10)</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">integer(-4.294967296E9, -2.3283064365386963E-10)</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negative(-9.9e308, -0.0)</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shortTest(32768, 3.0517578125E-5)</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shortTest(3.0517578125E-5, 32768.0)</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shortTest(32767, 3.051850947599719E-5)</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shortTest(3.051850947599719E-5, 32767.0)</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">zero(0, Infinity)</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">zero(0.0, Infinity)</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">zero(0E0, Infinity)</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">zero(0.0E0, Infinity)</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
