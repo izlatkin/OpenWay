@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class OpenWayTask {
-    public static String INCORRECT_NUMBER_FORMATE = "Incorrect Number Formate";
+    public static String INCORRECT_NUMBER_FORMATE = "Incorrect Number Format";
 
     public static String f_1_dev_x(String value){
         try {
@@ -10,18 +10,6 @@ public class OpenWayTask {
         }catch (java.lang.NumberFormatException e){
             return INCORRECT_NUMBER_FORMATE;
         }
-    }
-
-    public static String f_1_dev_x(int value){
-        return f_1_dev_x(String.valueOf(value));
-    }
-
-    public static String f_1_dev_x(double value){
-        return f_1_dev_x(String.valueOf(value));
-    }
-
-    public static String f_1_dev_x(float value){
-        return f_1_dev_x(String.valueOf(value));
     }
 
     public static void main(String[] args){

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="46" passed="46" failed="0" skipped="0">
+<testng-results total="32" passed="32" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-09-13T09:15:16Z" name="Suite1" finished-at="2018-09-13T09:15:16Z" duration-ms="248">
+  <suite started-at="2018-09-13T19:08:58Z" name="Suite1" finished-at="2018-09-13T19:08:59Z" duration-ms="129">
     <groups>
       <group name="1">
-        <method signature="testNgTests.integer(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" name="integer" class="testNgTests"/>
-        <method signature="testNgTests.shortTest(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" name="shortTest" class="testNgTests"/>
-        <method signature="testNgTests.zero(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" name="zero" class="testNgTests"/>
+        <method signature="testNgTests.integer(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" name="integer" class="testNgTests"/>
+        <method signature="testNgTests.shortTest(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" name="shortTest" class="testNgTests"/>
+        <method signature="testNgTests.zero(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" name="zero" class="testNgTests"/>
       </group> <!-- 1 -->
       <group name="2">
-        <method signature="testNgTests.exponentFormate(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" name="exponentFormate" class="testNgTests"/>
-        <method signature="testNgTests.floatFormate(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" name="floatFormate" class="testNgTests"/>
-        <method signature="testNgTests.incorrectFormate(java.lang.String)[pri:0, instance:testNgTests@2b662a77]" name="incorrectFormate" class="testNgTests"/>
+        <method signature="testNgTests.exponentFormat(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" name="exponentFormat" class="testNgTests"/>
+        <method signature="testNgTests.floatFormat(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" name="floatFormat" class="testNgTests"/>
+        <method signature="testNgTests.incorrectFormat(java.lang.String)[pri:0, instance:testNgTests@131774fe]" name="incorrectFormat" class="testNgTests"/>
       </group> <!-- 2 -->
       <group name="3">
-        <method signature="testNgTests.extrimeValues(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" name="extrimeValues" class="testNgTests"/>
-        <method signature="testNgTests.negative(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" name="negative" class="testNgTests"/>
+        <method signature="testNgTests.extremeValues(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" name="extremeValues" class="testNgTests"/>
+        <method signature="testNgTests.negative(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" name="negative" class="testNgTests"/>
       </group> <!-- 3 -->
     </groups>
-    <test started-at="2018-09-13T09:15:16Z" name="test1" finished-at="2018-09-13T09:15:16Z" duration-ms="31">
+    <test started-at="2018-09-13T19:08:58Z" name="test1" finished-at="2018-09-13T19:08:58Z" duration-ms="37">
       <class name="testNgTests">
-        <test-method signature="exponentFormate(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="exponentFormate" data-provider="exponentFormate" finished-at="2018-09-13T12:15:16Z" duration-ms="7" status="PASS">
+        <test-method signature="exponentFormat(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="exponentFormat" data-provider="ExponentFormat" finished-at="2018-09-13T22:08:58Z" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,24 +36,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- exponentFormate -->
-        <test-method signature="exponentFormate(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="exponentFormate" data-provider="exponentFormate" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1E1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0.1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exponentFormate -->
-        <test-method signature="exponentFormate(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="exponentFormate" data-provider="exponentFormate" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        </test-method> <!-- exponentFormat -->
+        <test-method signature="exponentFormat(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="exponentFormat" data-provider="ExponentFormat" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -68,24 +52,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- exponentFormate -->
-        <test-method signature="exponentFormate(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="exponentFormate" data-provider="exponentFormate" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1.0E-100]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0E100]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exponentFormate -->
-        <test-method signature="exponentFormate(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="exponentFormate" data-provider="exponentFormate" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        </test-method> <!-- exponentFormat -->
+        <test-method signature="exponentFormat(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="exponentFormat" data-provider="ExponentFormat" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -100,8 +68,24 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- exponentFormate -->
-        <test-method signature="extrimeValues(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="extrimeValues" data-provider="extrimeValues" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        </test-method> <!-- exponentFormat -->
+        <test-method signature="exponentFormat(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="exponentFormat" data-provider="ExponentFormat" finished-at="2018-09-13T22:08:58Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0E-100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0E100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exponentFormat -->
+        <test-method signature="extremeValues(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="extremeValues" data-provider="ExtremeValues" finished-at="2018-09-13T22:08:58Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -116,8 +100,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- extrimeValues -->
-        <test-method signature="extrimeValues(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="extrimeValues" data-provider="extrimeValues" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        </test-method> <!-- extremeValues -->
+        <test-method signature="extremeValues(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="extremeValues" data-provider="ExtremeValues" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -132,24 +116,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- extrimeValues -->
-        <test-method signature="extrimeValues(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="extrimeValues" data-provider="extrimeValues" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1.0E308]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0E-308]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- extrimeValues -->
-        <test-method signature="extrimeValues(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="extrimeValues" data-provider="extrimeValues" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        </test-method> <!-- extremeValues -->
+        <test-method signature="extremeValues(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="extremeValues" data-provider="ExtremeValues" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -164,67 +132,24 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- extrimeValues -->
-        <test-method signature="floatFormate(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="floatFormate" data-provider="floatFormate" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        </test-method> <!-- extremeValues -->
+        <test-method signature="extremeValues(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="extremeValues" data-provider="ExtremeValues" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[.9]]>
+                <![CDATA[1.0E308]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[1.1111111111111112]]>
+                <![CDATA[1.0E-308]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- floatFormate -->
-        <test-method signature="extrimeValues(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="extrimeValues" data-provider="extrimeValues" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-9.9e306]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-1.01010101010101E-307]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- extrimeValues -->
-        <test-method signature="floatFormate(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="floatFormate" data-provider="floatFormate" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1.]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- floatFormate -->
-        <test-method signature="incorrectFormate(java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="incorrectFormate" data-provider="incorrectFormate" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- incorrectFormate -->
-        <test-method signature="floatFormate(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="floatFormate" data-provider="floatFormate" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        </test-method> <!-- extremeValues -->
+        <test-method signature="floatFormat(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="floatFormat" data-provider="FloatFormat" finished-at="2018-09-13T22:08:58Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -239,68 +164,51 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- floatFormate -->
-        <test-method signature="floatFormate(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="floatFormate" data-provider="floatFormate" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        </test-method> <!-- floatFormat -->
+        <test-method signature="floatFormat(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="floatFormat" data-provider="FloatFormat" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[0.0000000000001]]>
+                <![CDATA[1.]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[1.0E13]]>
+                <![CDATA[1.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- floatFormate -->
-        <test-method signature="incorrectFormate(java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="incorrectFormate" data-provider="incorrectFormate" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        </test-method> <!-- floatFormat -->
+        <test-method signature="floatFormat(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="floatFormat" data-provider="FloatFormat" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[!@#$%^&]]>
+                <![CDATA[.9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.1111111111111112]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- incorrectFormate -->
-        <test-method signature="incorrectFormate(java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="incorrectFormate" data-provider="incorrectFormate" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        </test-method> <!-- floatFormat -->
+        <test-method signature="incorrectFormat(java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="incorrectFormat" data-provider="IncorrectFormat" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[_]]>
+                <![CDATA[]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- incorrectFormate -->
-        <test-method signature="incorrectFormate(java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="incorrectFormate" data-provider="incorrectFormate" finished-at="2018-09-13T12:15:16Z" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string ]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- incorrectFormate -->
-        <test-method signature="incorrectFormate(java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="incorrectFormate" data-provider="incorrectFormate" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[123.!]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- incorrectFormate -->
-        <test-method signature="incorrectFormate(java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="incorrectFormate" data-provider="incorrectFormate" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        </test-method> <!-- incorrectFormat -->
+        <test-method signature="incorrectFormat(java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="incorrectFormat" data-provider="IncorrectFormat" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -310,19 +218,19 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- incorrectFormate -->
-        <test-method signature="incorrectFormate(java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="incorrectFormate" data-provider="incorrectFormate" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        </test-method> <!-- incorrectFormat -->
+        <test-method signature="incorrectFormat(java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="incorrectFormat" data-provider="IncorrectFormat" finished-at="2018-09-13T22:08:58Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[_100_]]>
+                <![CDATA[!@#$%^&*()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- incorrectFormate -->
-        <test-method signature="incorrectFormate(java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="incorrectFormate" data-provider="incorrectFormate" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        </test-method> <!-- incorrectFormat -->
+        <test-method signature="incorrectFormat(java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="incorrectFormat" data-provider="IncorrectFormat" finished-at="2018-09-13T22:08:58Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -332,8 +240,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- incorrectFormate -->
-        <test-method signature="incorrectFormate(java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="incorrectFormate" data-provider="incorrectFormate" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        </test-method> <!-- incorrectFormat -->
+        <test-method signature="incorrectFormat(java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="incorrectFormat" data-provider="IncorrectFormat" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -343,8 +251,19 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- incorrectFormate -->
-        <test-method signature="incorrectFormate(java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="incorrectFormate" data-provider="incorrectFormate" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        </test-method> <!-- incorrectFormat -->
+        <test-method signature="incorrectFormat(java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="incorrectFormat" data-provider="IncorrectFormat" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string very long string ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectFormat -->
+        <test-method signature="incorrectFormat(java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="incorrectFormat" data-provider="IncorrectFormat" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -354,24 +273,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- incorrectFormate -->
-        <test-method signature="integer(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="integer" data-provider="Integer" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0.25]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- integer -->
-        <test-method signature="integer(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="integer" data-provider="Integer" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        </test-method> <!-- incorrectFormat -->
+        <test-method signature="integer(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="integer" data-provider="Integer" finished-at="2018-09-13T22:08:58Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -387,71 +290,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- integer -->
-        <test-method signature="integer(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="integer" data-provider="Integer" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0.5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- integer -->
-        <test-method signature="integer(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="integer" data-provider="Integer" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[8]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0.125]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- integer -->
-        <test-method signature="integer(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="integer" data-provider="Integer" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[64]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0.015625]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- integer -->
-        <test-method signature="integer(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="integer" data-provider="Integer" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-32]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-0.03125]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- integer -->
-        <test-method signature="integer(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="integer" data-provider="Integer" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        <test-method signature="integer(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="integer" data-provider="Integer" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -467,71 +306,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- integer -->
-        <test-method signature="integer(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="integer" data-provider="Integer" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[256]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0.00390625]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- integer -->
-        <test-method signature="integer(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="integer" data-provider="Integer" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-1.073741824E9]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-9.313225746154785E-10]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- integer -->
-        <test-method signature="integer(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="integer" data-provider="Integer" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[4.294967296E9]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2.3283064365386963E-10]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- integer -->
-        <test-method signature="integer(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="integer" data-provider="Integer" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-1024]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-9.765625E-4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- integer -->
-        <test-method signature="integer(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="integer" data-provider="Integer" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        <test-method signature="integer(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="integer" data-provider="Integer" finished-at="2018-09-13T22:08:58Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -547,23 +322,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- integer -->
-        <test-method signature="negative(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="negative" data-provider="knowIssue" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        <test-method signature="integer(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="integer" data-provider="Integer" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[-9.9e308]]>
+                <![CDATA[-1.073741824E9]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[-0.0]]>
+                <![CDATA[-9.313225746154785E-10]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- negative -->
-        <test-method signature="integer(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="integer" data-provider="Integer" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        </test-method> <!-- integer -->
+        <test-method signature="integer(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="integer" data-provider="Integer" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -579,7 +354,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- integer -->
-        <test-method signature="shortTest(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="shortTest" data-provider="Short" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        <test-method signature="negative(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="negative" data-provider="KnownIssues" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-9.9e308]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative -->
+        <test-method signature="shortTest(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="shortTest" data-provider="Short" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -595,7 +386,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shortTest -->
-        <test-method signature="shortTest(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="shortTest" data-provider="Short" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        <test-method signature="shortTest(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="shortTest" data-provider="Short" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -611,23 +402,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shortTest -->
-        <test-method signature="shortTest(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="shortTest" data-provider="Short" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3.051850947599719E-5]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[32767.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shortTest -->
-        <test-method signature="shortTest(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="shortTest" data-provider="Short" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        <test-method signature="shortTest(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="shortTest" data-provider="Short" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -643,7 +418,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shortTest -->
-        <test-method signature="zero(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="zero" data-provider="Zero" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        <test-method signature="shortTest(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="shortTest" data-provider="Short" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.051850947599719E-5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[32767.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shortTest -->
+        <test-method signature="zero(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="zero" data-provider="Zero" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -659,39 +450,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- zero -->
-        <test-method signature="zero(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="zero" data-provider="Zero" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[0.0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Infinity]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- zero -->
-        <test-method signature="zero(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="zero" data-provider="Zero" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[0E0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Infinity]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- zero -->
-        <test-method signature="zero(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@2b662a77]" started-at="2018-09-13T12:15:16Z" name="zero" data-provider="Zero" finished-at="2018-09-13T12:15:16Z" duration-ms="0" status="PASS">
+        <test-method signature="zero(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="zero" data-provider="Zero" finished-at="2018-09-13T22:08:58Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -707,9 +466,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- zero -->
+        <test-method signature="zero(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="zero" data-provider="Zero" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Infinity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zero -->
+        <test-method signature="zero(java.lang.String, java.lang.String)[pri:0, instance:testNgTests@131774fe]" started-at="2018-09-13T22:08:58Z" name="zero" data-provider="Zero" finished-at="2018-09-13T22:08:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0E0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Infinity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zero -->
       </class> <!-- testNgTests -->
     </test> <!-- test1 -->
-    <test started-at="2018-09-13T09:15:16Z" name="test2" finished-at="2018-09-13T09:15:16Z" duration-ms="0">
+    <test started-at="2018-09-13T19:08:59Z" name="test2" finished-at="2018-09-13T19:08:59Z" duration-ms="0">
     </test> <!-- test2 -->
   </suite> <!-- Suite1 -->
 </testng-results>
